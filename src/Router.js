@@ -20,7 +20,7 @@ export default function Rouuter() {
             <Link to="/exo">About</Link>
           </li>
           <li>
-            <Link to="/topics">Topics</Link>
+            <Link to="/temps">temps</Link>
           </li>
         </ul>
 
@@ -28,7 +28,7 @@ export default function Rouuter() {
           <Route path="/exo">
             <Exo />
           </Route>
-          <Route path="/topics">
+          <Route path="/temps">
             <Topics />
           </Route>
           <Route path="/">
@@ -46,6 +46,10 @@ function Home() {
 
 function Exo() {
   return   <Exo />;
+}
+
+function Temps() {
+    return   <Temps />;
 }
 
 function Topics() {
