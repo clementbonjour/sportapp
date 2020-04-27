@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import persona from './corps.svg';
 
+import Pause from './pause.svg';
+import Play from './play.svg';
 import './App.css';
 import './Timer.js';
 
