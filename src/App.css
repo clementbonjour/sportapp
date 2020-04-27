@@ -21,3 +21,75 @@
 .App-link {
   color: #F63C58;
 }
+
+
+
+
+
+
+.exos-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exo-superior {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exo-inferior {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50px 50px 0px 0px;
+  box-shadow: 0px -15px 20px rgba(0,0,0,0.15);
+}
+
+.PlayPauseButton {
+  background: red;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+  display :flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PlayPauseButton img {
+  width: 30%;
+}
+
+.loaderContainer {
+  height: 1vh;
+  width: 80%;
+  background: #dedede;
+  margin-top : 3vh;
+  border-radius: 100px;
+}
+
+.loaderBar {
+  background: red;
+  width: 80%;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.exo-detailTxt {
+  padding:3%;
+}
+
+.exo-detailTxt h3 {
+  font-size: 8vw;
+}

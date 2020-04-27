@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import Pause from './pause.svg';
+import Play from './play.svg';
 import './App.css';
 
 function App() {
