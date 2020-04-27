@@ -20,6 +20,33 @@
 .App-link {
   color: #F63C58;
 }
+a.ial {
+  color: #ffffff;
+    background-color: #F63C58;
+    padding: 12px 25px;
+    border-radius: 35px;
+    text-decoration: none;
+    max-width: 320px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 48px #f63c5893;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+}
+a.ial:hover img {
+  margin-left: 25px;
+  padding-right: 0px;
+}
+.ial img {
+  max-height: 28px;
+  margin-left: 15px;
+  padding-right: 10px;
+  transition: 0.3s ease;
+}
 .margium {
   max-width: 720px;
   display: block;
@@ -29,7 +56,7 @@ header {
   padding: 15px;
 }
 img.persona {
-  max-height: 600px;
+  max-height: 550px;
 }
 
 ::selection {

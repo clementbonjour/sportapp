@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import persona from './corps.svg';
 
 import Pause from './pause.svg';
+import Fleche from './fleche.svg';
+
 import Play from './play.svg';
 import './App.css';
 import './Timer.js';
@@ -16,7 +18,9 @@ function App() {
       </header>
       <div className="margium">
         <img src={persona} className="persona" alt="persona" />
+        <a className="ial" href="temps">Commercer l'entrainement<img src={Fleche} alt=">"/></a>
       </div>
+      
     </div>
   );
 }
