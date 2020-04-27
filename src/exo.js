@@ -9,4 +9,4 @@ function lam() {
   )
 }
 
-export default App;
+export default lam;
