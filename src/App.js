@@ -3,26 +3,18 @@ import logo from './logo.svg';
 import Pause from './pause.svg';
 import Play from './play.svg';
 import './App.css';
+import './Timer.js';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Modifier <code>src/App.js</code> et enregistrer pour recharger.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Apprendre React
-        </a>
       </header>
     </div>
   );
 }
 
 export default App;
+

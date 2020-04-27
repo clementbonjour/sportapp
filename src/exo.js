@@ -20,4 +20,4 @@ function Lam() {
   )
 }
 
-export default App;
+export default lam;

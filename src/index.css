@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.all_time {
+  font-size : 2rem;
+  color : #F63C58;
+  border-radius : 50%;
+  border : solid 2px #F63C58;
+  padding : 7% 13%;
+  line-height: 0;
+}
+
+.all_number {
+  font-weight: bold;
+  font-size : 4rem;
+}
