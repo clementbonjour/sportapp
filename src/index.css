@@ -13,15 +13,84 @@ code {
 }
 
 .all_time {
+  margin-top: 3%;
+  width: 59%;
+  height: 24vh;
+  margin-left: auto;
+  margin-right: auto;
   font-size : 2rem;
   color : #F63C58;
-  border-radius : 50%;
-  border : solid 2px #F63C58;
-  padding : 7% 13%;
+  border: 2.5px solid #F63C58;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
   line-height: 0;
+  box-shadow: 0px 4px 12px rgba(246, 60, 88, 0.5);
 }
 
 .all_number {
   font-weight: bold;
   font-size : 4rem;
+}
+
+.all_timer {
+  color : #F63C58;
+}
+
+.all_timer input {
+  border: 3px solid #F63C58;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(246, 60, 88, 0.5);
+  border-radius: 25.5px;
+  width : 55%;
+  height: 5vh;
+}
+
+.nbr {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width : 90%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.choose {
+  margin-top: 10%;
+}
+
+.nbr_serie {
+  text-align: center;
+
+}
+
+.nbr_serie input {
+  width : 100%;
+}
+
+.tmps_repos {
+  text-align: center;
+}
+
+.tmps_repos input {
+  width : 100%;
+}
+
+.bouton_start {
+  background: #F63C58;
+  box-shadow: 0px 4px 12px rgba(246, 60, 88, 0.5);
+  border-radius: 25.5px;
+  color : white;
+  padding: 5% 20%;
+}
+
+.timer_button {
+  width : 100%;
+  text-align: center;
+}
+
+.logo_timer {
+  text-align: center;
+  width: 100%;
 }
