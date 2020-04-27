@@ -1,4 +1,4 @@
-## Membre
+### Membres
 
 Clément Riquet
 
@@ -12,7 +12,7 @@ Lucas Lacroix
 npm start
 
 
-### commencer avec git
+### Commencer avec git
 
 git pull
 
@@ -25,7 +25,7 @@ git commit -m "message de commit"
 git push
 
 
-### le projet 
+### Le projet 
 
 Application de sport
 
