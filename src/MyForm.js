@@ -39,7 +39,7 @@ function MyForm() {
                         <input type='number' name="tmps_exo" min="1"/>
                     </div>
                     <div className="nbr">
-                        <p>Temps de repos</p>
+                        <p>Temps de repos entre chaque exercice</p>
                         <input type='number' name="tmps_repos" min="1"/>
                     </div>
                     <div className="nbr">
@@ -48,7 +48,7 @@ function MyForm() {
                             <input type='number' name="nbr_serie" min="1"/>
                         </div>
                         <div className="tmps_repos">
-                            <p> Temps de repos</p>
+                            <p> Temps de repos entre chaque série</p>
                             <input type='number'  name="tmps_repos2" min="1"/>
                         </div>
                     </div>
