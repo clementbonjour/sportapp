@@ -22,6 +22,9 @@ function TimerExercice(props) {
     )
 }
 
+function endOfTimer(){
+
+}
 
 function TimerRepos(props) {
     return (
