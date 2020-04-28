@@ -6,7 +6,7 @@ import './App.css';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import home from './App.js';
-import exo from './Exo';
+import exo from './Exo.js';
 import temps from './Timer';
 
 const Root = () => (
