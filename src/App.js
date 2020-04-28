@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import persona from './corps.svg';
 
@@ -7,10 +7,13 @@ import Fleche from './fleche.svg';
 
 import Play from './play.svg';
 import './App.css';
-import './Timer.js';
+
 
 
 function App() {
+
+    
+
   return (
     <div className="App">
       <header className="App-header">

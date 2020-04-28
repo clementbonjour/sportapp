@@ -1,7 +1,7 @@
 import React from 'react';
 import Play from './play.svg';
 
-function Lam() {
+function Exo() {
   return (
     <div className="exos-container">
       <div className="exo-superior">yo</div>
@@ -21,4 +21,4 @@ function Lam() {
   )
 }
 
-export default Lam;
+export default Exo;

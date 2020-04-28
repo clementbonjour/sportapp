@@ -5,16 +5,16 @@ import * as serviceWorker from './serviceWorker';
 import './App.css';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import home from './App.js';
-import exo from './exo';
-import temps from './Timer';
+import App from './App.js';
+import Exo from './Exo';
+import MyForm from './MyForm';
 
 const Root = () => (
     <Router>
         <Switch>
-            <Route exact path="/" component={home} />
-            <Route path="/exo" component={exo} />
-            <Route path="/temps" component={temps} />
+            <Route exact path="/" component={App} />
+            <Route path="/exo" component={Exo} />
+            <Route path="/temps" component={MyForm} />
         </Switch>
     </Router>
 )
