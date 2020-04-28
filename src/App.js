@@ -1,7 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import Pause from './pause.svg';
-import Play from './play.svg';
 import './App.css';
 import './Timer.js';
 
@@ -17,4 +15,3 @@ function App() {
 }
 
 export default App;
-
