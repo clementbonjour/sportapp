@@ -9,7 +9,6 @@
 
 .App-header {
   background-color: #ffffff;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,70 @@
 
 .App-link {
   color: #F63C58;
+}
+a.ial {
+  color: #ffffff;
+  background-color: #F63C58;
+  padding: 12px 25px;
+  border-radius: 35px;
+  text-decoration: none;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 48px #f63c5893;
+  text-transform: uppercase;
+  font-size: large;
+  font-family: 'Oswald', sans-serif;
+}
+.flames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  width: 52px;
+  height: 52px;
+  font-size: x-large;
+  margin: 0px 15px;
+  border-radius: 52px;
+  border:3px #F63C58 solid;
+  
+}
+a.ial:hover img {
+  margin-left: 25px;
+  padding-right: 0px;
+}
+.ial img {
+  max-height: 28px;
+  margin-left: 15px;
+  padding-right: 10px;
+  transition: 0.3s ease;
+}
+
+.app-row {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.margium {
+  max-width: 720px;
+  display: block;
+  margin: 0px auto;
+}
+header {
+  padding: 15px;
+}
+.App svg {
+  max-height: 550px;
+}
+
+::selection {
+  color: #202020;
+  background:#dfdfdf;
 }
 
 
