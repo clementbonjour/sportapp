@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
-<<<<<<< HEAD
-=======
 import Fleche from './fleche.svg';
->>>>>>> 1abc6bf9568a7e743d6b29161247d2a43fb63876
 import './App.css';
 
 const SVG = () => <div>
@@ -12,7 +9,7 @@ const SVG = () => <div>
 
 function App() {
 
-    
+
 
   return (
     <div className="App">
@@ -30,8 +27,4 @@ function App() {
   );
 }
 
-<<<<<<< HEAD
 export default App;
-=======
-export default App;
->>>>>>> 1abc6bf9568a7e743d6b29161247d2a43fb63876
