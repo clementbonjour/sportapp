@@ -24,6 +24,7 @@ function Exo(){
     {id: 4, nom: 'rocking chair', description: 'lorem ipsum dolor sit amet'},
   ]
 
+if(exercices[3].id == 1){
     return (
       <div className="exos-container">
         <div className="exo-superior">
@@ -32,9 +33,8 @@ function Exo(){
         </div>
         </div>
         <div className="exo-inferior">
-            <h3>Wesh</h3>
             {exercices.map((exo) => (
-              <div class="exo-detailTxt">
+               <div class="exo-detailTxt">
                 <h3>{exo.nom}</h3>
                 <p>{exo.description}</p>
               </div>
@@ -48,9 +48,7 @@ function Exo(){
         </div>
       </div>
     )
-}
-function choose() {
-
+  }
 }
 
 export default Exo;

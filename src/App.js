@@ -9,24 +9,6 @@ const SVG = () => <div>
 
 function App() {
 
-<<<<<<< HEAD
-    const [count, setCount] = useState(0);
-
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-            </header>
-            <div className="margium">
-                <SVG />
-                <div className="app-row" onClick={() => setCount(count + 1)}>
-                    <span className="flames"> {count}</span>
-                    <a className="ial" href="temps">Commercer l'entraînement<img src={Fleche} alt=">"/></a>
-                </div>
-            </div>
-        </div>
-    );
-=======
   const [count, setCount] = useState(0);
 
   return (
@@ -43,7 +25,6 @@ function App() {
       </div>
     </div>
   );
->>>>>>> 6c9e85b0c66c96100cab7b780b34c7bbc2ca43f4
 }
 
 export default App;
