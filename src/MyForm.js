@@ -32,24 +32,24 @@ function MyForm() {
                 <div className="choose">
                     <div className="nbr">
                         <p>Nb d'exercices</p>
-                        <input type="number" name="nb_exo" min="1"/>
+                        <input type="number" value="2"name="nb_exo" min="1"/>
                     </div>
                     <div className="nbr">
                         <p>Temps par exercice</p>
-                        <input type='number' name="tmps_exo" min="1"/>
+                        <input type='number' value="5" name="tmps_exo" min="1"/>
                     </div>
                     <div className="nbr">
                         <p>Temps de repos entre chaque exercice</p>
-                        <input type='number' name="tmps_repos" min="1"/>
+                        <input type='number'  value="3" name="tmps_repos" min="1"/>
                     </div>
                     <div className="nbr">
                         <div className="nbr_serie">
                             <p>Nombre de série</p>
-                            <input type='number' name="nbr_serie" min="1"/>
+                            <input type='number' value="2" name="nbr_serie" min="1"/>
                         </div>
                         <div className="tmps_repos">
                             <p> Temps de repos entre chaque série</p>
-                            <input type='number'  name="tmps_repos2" min="1"/>
+                            <input type='number' value="10" name="tmps_repos2" min="1"/>
                         </div>
                     </div>
                     <div className="timer_button">
