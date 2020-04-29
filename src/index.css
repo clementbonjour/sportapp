@@ -14,8 +14,8 @@ code {
 
 .all_time {
   margin-top: 3%;
-  width: 244px;
-  height: 244px;
+  width: 59%;
+  height: 24vh;
   margin-left: auto;
   margin-right: auto;
   font-size : 2rem;
@@ -26,7 +26,6 @@ code {
   text-align: center;
   line-height: 0;
   box-shadow: 0px 4px 12px rgba(246, 60, 88, 0.5);
-  padding: 7%;
 }
 
 .all_number {
@@ -84,7 +83,6 @@ code {
   border-radius: 25.5px;
   color : white;
   padding: 5% 20%;
-  text-decoration: none;
 }
 
 .timer_button {
@@ -95,22 +93,4 @@ code {
 .logo_timer {
   text-align: center;
   width: 100%;
-}
-
-.all_numbers {
-  font-size: 2.7rem;
-  height: 30vh;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.timer_name {
-  color : #F63C58;
-  text-align: center;
-  font-size: 4rem;
-}
-
-.time_margin {
-  margin-top: 40%;
-  text-align: center;
 }
