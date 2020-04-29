@@ -4,18 +4,41 @@ import Play from './play.svg';
 
 
 function Exo(){
+
+  const exercices = [
+    {id: 1, nom: 'planche', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'planche gauche', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'planche droite', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'crunch', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes prise simple', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes prise large', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes diamant', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'dips', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé latéral', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé frontal', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé arrière', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'squat', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'chaise', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'squatte', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'rocking chair', description: 'lorem ipsum dolor sit amet'},
+  ]
+
     return (
       <div className="exos-container">
         <div className="exo-superior">
         <div className="boutonRetour">
-          <p>Retour{this.props.name}</p>
+          <p>Retour</p>
         </div>
         </div>
         <div className="exo-inferior">
-          <div class="exo-detailTxt">
             <h3>Wesh</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, neque ac ultricies blandit, lacus ligula mattis purus, et ultricies est erat sit amet tortor. Vestibulum vel feugiat justo.</p>
-          </div>
+            {exercices.map((exo) => (
+              <div class="exo-detailTxt">
+                <h3>{exo.nom}</h3>
+                <p>{exo.description}</p>
+              </div>
+            ))}
           <div className="PlayPauseButton">
             <img src={Play}/>
           </div>
@@ -25,6 +48,9 @@ function Exo(){
         </div>
       </div>
     )
+}
+function choose() {
+
 }
 
 export default Exo;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 import logo from './logo.svg';
 import Fleche from './fleche.svg';
 import './App.css';
@@ -9,7 +9,7 @@ const SVG = () => <div>
 
 function App() {
 
-
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -18,8 +18,8 @@ function App() {
       </header>
       <div className="margium">
           <SVG />
-          <div className="app-row">
-              <span className="flames">28</span>
+          <div className="app-row" onClick={() => setCount(count + 1)}>
+              <span className="flames"> {count}</span>
               <a className="ial" href="temps">Commercer l'entraînement<img src={Fleche} alt=">"/></a>
           </div>
       </div>
