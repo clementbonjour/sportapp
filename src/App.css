@@ -20,10 +20,10 @@
 .App-link {
   color: #F63C58;
 }
-a.ial {
+.ial {
   color: #ffffff;
   background-color: #F63C58;
-  padding: 12px 25px;
+  padding: 12px 10px;
   border-radius: 35px;
   text-decoration: none;
   max-width: 300px;
@@ -50,7 +50,7 @@ a.ial {
   border:3px #F63C58 solid;
   
 }
-a.ial:hover img {
+.ial:hover img {
   margin-left: 25px;
   padding-right: 0px;
 }
