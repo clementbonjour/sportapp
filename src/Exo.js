@@ -1,8 +1,53 @@
-import React, {Component} from 'react';
+import React, {useEffect, useState} from 'react';
 import Pause from './pause.svg';
 import Play from './play.svg';
 
+const exercices = [
+    {id: 1, nom: 'planche', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'planche gauche', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'planche droite', description: 'lorem ipsum dolor sit amet'},
+    {id: 1, nom: 'crunch', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes prise simple', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes prise large', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'pompes diamant', description: 'lorem ipsum dolor sit amet'},
+    {id: 2, nom: 'dips', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé latéral', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé frontal', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé arrière', description: 'lorem ipsum dolor sit amet'},
+    {id: 3, nom: 'soulevé', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'squat', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'chaise', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'squatte', description: 'lorem ipsum dolor sit amet'},
+    {id: 4, nom: 'rocking chair', description: 'lorem ipsum dolor sit amet'},
+]
+
+
+function Card(props) {
+    return (
+        <div>{props.id}, {props.nom}, {props.description}</div>
+    )
+}
+
+export default function Exo(props) {
+
+    const [personnes, setPersonnes] = useState(exercices)
+    return (
+        <div>
+            {personnes.filter(personnes => personnes.id == 1).map(p => <Card id={p.id} nom={p.nom} description={p.description}/>)}
+        </div>
+    )
+
+    /*
+    import React, {Component} from 'react';
+import Pause from './pause.svg';
+import Play from './play.svg';
+
+
 function Exo(){
+
+	let seriemuscle = 1;
+  let etape = 2;
+
 
   const exercices = [
     {id: 1, nom: 'planche', description: 'lorem ipsum dolor sit amet'},
@@ -23,10 +68,9 @@ function Exo(){
     {id: 4, nom: 'rocking chair', description: 'lorem ipsum dolor sit amet'},
   ]
 
-if(exercices[3].id == 1){
+if(exercices[etape].id == seriemuscle){
     return (
-      <div className="exos-container">
-        <div className="exo-superior">
+      <div className="exos-container"> <div className="exo-superior">
         <div className="boutonRetour">
           <p>Retour</p>
         </div>
@@ -46,9 +90,11 @@ if(exercices[3].id == 1){
           </div>
         </div>
       </div>
-
-    );
+    )
   }
 }
 
 export default Exo;
+     */
+
+}
