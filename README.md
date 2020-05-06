@@ -6,6 +6,9 @@ Gaëlle Bauvin
 
 Lucas Lacroix
 
+### Le projet en ligne
+
+https://p-superfit.netlify.app
 
 ### Lancer le projet
 
