@@ -13,7 +13,6 @@ const Root = () => (
     <Router>
         <Switch>
             <Route exact path="/" component={App} />
-            <Route path="/exo" component={Exo} />
             <Route path="/temps" component={MyForm} />
         </Switch>
     </Router>
